@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WCAG 2.1 AA Audit — Pueblo Community College (https://pueblocc.edu)</title>
+<meta name="description" content="Automated weekly WCAG 2.1 AA accessibility audit results for https://pueblocc.edu, produced with axe-core.">
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0 auto; padding: 2rem 1.25rem 4rem; max-width: 940px;
+    font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #212f3c; background: #fdfdfc;
+  }
+  header h1 { font-size: 1.7rem; margin: 0 0 .25rem; }
+  header .sub { color: #566573; margin: 0 0 1rem; }
+  .meta { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; color: #566573; font-size: .92rem; border-bottom: 1px solid #e3e7ea; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: .75rem; margin-bottom: 1rem; }
+  .card { background: #fff; border: 1px solid #e3e7ea; border-radius: 8px; padding: .9rem 1rem; }
+  .card .num { display: block; font-size: 1.9rem; font-weight: 700; line-height: 1.2; }
+  .card .lbl { color: #566573; font-size: .85rem; }
+  .sevcard { background: #fff; border: 1px solid #e3e7ea; border-radius: 8px; padding: .6rem .8rem; display: flex; align-items: baseline; gap: .5rem; }
+  .sevcard .num { font-size: 1.4rem; font-weight: 700; }
+  .sevcard .lbl { color: #566573; font-size: .82rem; }
+  .severities { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: .5rem; margin-bottom: 1.5rem; }
+  h2 { font-size: 1.2rem; margin: 2rem 0 .75rem; }
+  .spark { width: 100%; max-width: 680px; height: auto; background: #fff; border: 1px solid #e3e7ea; border-radius: 8px; }
+  .axis { font-size: 11px; fill: #7b8a8b; }
+  .delta { font-size: .9rem; font-weight: 600; }
+  .delta.up { color: #b03a2e; } .delta.down { color: #1e8449; }
+  .delta.flat, .delta.first { color: #7b8a8b; font-weight: 400; }
+  .page { background: #fff; border: 1px solid #e3e7ea; border-radius: 8px; padding: 1rem 1.25rem 1.25rem; margin-bottom: 1rem; }
+  .page.failed { border-color: #f0b27a; background: #fef9f3; }
+  .page h3 { margin: 0 0 .25rem; font-size: 1.05rem; word-break: break-all; }
+  .page h3 .title { font-weight: 400; color: #7b8a8b; font-size: .9rem; }
+  .page h4 { margin: 1rem 0 .5rem; font-size: .95rem; }
+  .count { color: #7b8a8b; font-weight: 400; font-size: .85rem; }
+  .total { margin: 0 0 .5rem; color: #566573; }
+  .clean { color: #1e8449; font-weight: 600; }
+  .warn { color: #b9770e; }
+  table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+  th, td { text-align: left; padding: .45rem .6rem; border-bottom: 1px solid #eef1f2; vertical-align: top; }
+  th { color: #566573; font-size: .8rem; text-transform: uppercase; letter-spacing: .03em; }
+  .targets { color: #7b8a8b; font-size: .82rem; word-break: break-all; max-width: 260px; }
+  code { background: #f4f6f7; padding: .1rem .35rem; border-radius: 4px; font-size: .85em; }
+  ul.inc { margin: .25rem 0 0; padding-left: 1.2rem; }
+  .note { color: #566573; font-size: .9rem; margin: .25rem 0 .75rem; }
+  table.pages { width: 100%; border-collapse: collapse; font-size: .9rem; }
+  table.pages thead th {
+    position: sticky; top: 0; background: #fdfdfc; z-index: 1;
+    border-bottom: 2px solid #e3e7ea;
+  }
+  table.pages th.n, table.pages td.n { text-align: right; white-space: nowrap; }
+  table.pages td.n.bad { color: #b03a2e; font-weight: 700; }
+  table.pages td.pg { max-width: 0; }
+  table.pages td.pg a { word-break: break-all; }
+  table.pages .pwurl { display: block; color: #7b8a8b; font-size: .8rem; margin-top: .1rem; word-break: break-all; }
+  table.pages td.pg .err { word-break: break-all; }
+  table.pages td.links { white-space: nowrap; text-align: right; }
+  table.pages a.pgrep {
+    color: #2e86c1; text-decoration: none; font-weight: 600;
+    border: 1px solid #cfe6f5; background: #f4fafd; padding: .15rem .5rem; border-radius: 6px;
+  }
+  table.pages a.pgrep:hover { background: #e8f4fb; }
+  table.pages tr.bad td.pg a { color: #b03a2e; }
+  footer { margin-top: 2.5rem; border-top: 1px solid #e3e7ea; padding-top: 1rem; font-size: .85rem; color: #566573; }
+  footer a { color: #2e86c1; }
+  .datamenu { display: flex; flex-wrap: wrap; gap: 1rem; margin: .5rem 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>WCAG 2.1 AA Audit — Pueblo Community College</h1>
+  <p class="sub"><a href="https://pueblocc.edu">https://pueblocc.edu</a></p>
+</header>
+
+<div class="meta">
+  <span>Last audited: <strong>August 25, 2026</strong> (UTC)</span>
+  <span>Published runs: 1</span>
+  <span>Tooling: <a href="https://github.com/ThirstyHead/audit-pueblocc.edu">axe-core + Playwright</a>, run weekly via GitHub Actions</span>
+  <span><span class="delta first">first published run</span></span>
+</div>
+
+<h2>Latest results</h2>
+<div class="cards">
+  <div class="card"><span class="num">11</span><span class="lbl">Node-level violations</span></div>
+  <div class="card"><span class="num">68</span><span class="lbl">Pages audited</span></div>
+  <div class="card"><span class="num">584</span><span class="lbl">Need manual review</span></div>
+</div>
+<div class="severities">
+      <div class="sevcard" style="border-top:4px solid #b03a2e">
+        <span class="num">6</span>
+        <span class="lbl">Critical</span>
+      </div>
+      <div class="sevcard" style="border-top:4px solid #ca6f1e">
+        <span class="num">5</span>
+        <span class="lbl">Serious</span>
+      </div>
+      <div class="sevcard" style="border-top:4px solid #b7950b">
+        <span class="num">0</span>
+        <span class="lbl">Moderate</span>
+      </div>
+      <div class="sevcard" style="border-top:4px solid #707b7c">
+        <span class="num">0</span>
+        <span class="lbl">Minor</span>
+      </div></div>
+
+<h2>Trend</h2>
+<p class="count">The trend chart appears once at least two runs have been published.</p>
+
+<h2>Pages</h2>
+<p class="note">Every page audited in this run. “Audit report” opens that page's full axe report — violations, needs-review, and passes, with node-level detail.</p>
+
+<table class="pages">
+  <thead><tr><th class="pg">Page</th><th class="n">Violations</th><th class="n">Needs review</th><th>Report</th></tr></thead>
+  <tbody>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/" rel="noopener">Home | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/</span></td>
+      <td class="n">0</td>
+      <td class="n">76</td>
+      <td class="links"><a class="pgrep" href="pages/home.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/accessibility-statement" rel="noopener">Accessibility Statement | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/accessibility-statement</span></td>
+      <td class="n">0</td>
+      <td class="n">3</td>
+      <td class="links"><a class="pgrep" href="pages/accessibility-statement.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/accreditation" rel="noopener">Accreditation and Institutional Recognition | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/accreditation</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/accreditation.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/Admissions" rel="noopener">Office of the Registrar | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/Admissions</span></td>
+      <td class="n">0</td>
+      <td class="n">5</td>
+      <td class="links"><a class="pgrep" href="pages/Admissions.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/advising" rel="noopener">Advising Support Services | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/advising</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/advising.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/amenities" rel="noopener">Campus Amenities | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/amenities</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/amenities.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/apply" rel="noopener">Apply Now | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/apply</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/apply.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/calendar" rel="noopener">Academic Calendar | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/calendar</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/calendar.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/career-services" rel="noopener">Career Services | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/career-services</span></td>
+      <td class="n">0</td>
+      <td class="n">5</td>
+      <td class="links"><a class="pgrep" href="pages/career-services.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/ChildrenFirst" rel="noopener">Children First | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/ChildrenFirst</span></td>
+      <td class="n">0</td>
+      <td class="n">5</td>
+      <td class="links"><a class="pgrep" href="pages/ChildrenFirst.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://pueblocc.edu/ChoosePCC" rel="noopener">Choose PCC. It&#39;s worth it. | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/ChoosePCC</span></td>
+      <td class="n bad">3</td>
+      <td class="n">20</td>
+      <td class="links"><a class="pgrep" href="pages/ChoosePCC.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/cof" rel="noopener">College Opportunity Fund | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/cof</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/cof.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/Concerns" rel="noopener">Reporting a Concern or Incident | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/Concerns</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/Concerns.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/cora" rel="noopener">Colorado Open Records Act (CORA) | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/cora</span></td>
+      <td class="n">0</td>
+      <td class="n">3</td>
+      <td class="links"><a class="pgrep" href="pages/cora.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/Corporate-Training" rel="noopener">Pueblo Corporate College - Corporate Training | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/Corporate-Training</span></td>
+      <td class="n">0</td>
+      <td class="n">5</td>
+      <td class="links"><a class="pgrep" href="pages/Corporate-Training.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://pueblocc.edu/EarlyCollege" rel="noopener">Concurrent Enrollment | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/EarlyCollege</span></td>
+      <td class="n bad">3</td>
+      <td class="n">6</td>
+      <td class="links"><a class="pgrep" href="pages/EarlyCollege.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/elearning" rel="noopener">Online Learning | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/elearning</span></td>
+      <td class="n">0</td>
+      <td class="n">5</td>
+      <td class="links"><a class="pgrep" href="pages/elearning.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/esports" rel="noopener">Panthers Esports | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/esports</span></td>
+      <td class="n">0</td>
+      <td class="n">142</td>
+      <td class="links"><a class="pgrep" href="pages/esports.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/Event-Services" rel="noopener">Conference &amp; Event Services | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/Event-Services</span></td>
+      <td class="n">0</td>
+      <td class="n">5</td>
+      <td class="links"><a class="pgrep" href="pages/Event-Services.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/events" rel="noopener">Events &amp; Happenings | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/events</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/events.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/events/2026-08-26/tlc-laptop-kiosk-open-house" rel="noopener">TLC Laptop Kiosk Open House | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/events/2026-08-26/tlc-laptop-kiosk-open-house</span></td>
+      <td class="n">0</td>
+      <td class="n">3</td>
+      <td class="links"><a class="pgrep" href="pages/events-2026-08-26-tlc-laptop-kiosk-open-house.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/events/2026-08-29/pdga-fremont-campus-disc-golf-tournament" rel="noopener">PDGA Fremont Campus Disc Golf Tournament | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/events/2026-08-29/pdga-fremont-campus-disc-golf-tournament</span></td>
+      <td class="n">0</td>
+      <td class="n">3</td>
+      <td class="links"><a class="pgrep" href="pages/events-2026-08-29-pdga-fremont-campus-disc-golf-tournament.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/events/2026-09-01/care-and-share-mobile-food-pantry" rel="noopener">Care and Share Mobile Food Pantry | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/events/2026-09-01/care-and-share-mobile-food-pantry</span></td>
+      <td class="n">0</td>
+      <td class="n">3</td>
+      <td class="links"><a class="pgrep" href="pages/events-2026-09-01-care-and-share-mobile-food-pantry.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/events/2026-09-01/dmv2go" rel="noopener">DMV2GO | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/events/2026-09-01/dmv2go</span></td>
+      <td class="n">0</td>
+      <td class="n">7</td>
+      <td class="links"><a class="pgrep" href="pages/events-2026-09-01-dmv2go.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/Financial-Aid" rel="noopener">Financial Aid | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/Financial-Aid</span></td>
+      <td class="n">0</td>
+      <td class="n">5</td>
+      <td class="links"><a class="pgrep" href="pages/Financial-Aid.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/Financial-Aid/Grants" rel="noopener">Student Grants | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/Financial-Aid/Grants</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/Financial-Aid-Grants.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://pueblocc.edu/Fremont" rel="noopener">Fremont Campus | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/Fremont</span></td>
+      <td class="n bad">3</td>
+      <td class="n">11</td>
+      <td class="links"><a class="pgrep" href="pages/Fremont.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/fremont-campus/pcc-dedicates-new-fremont-campus-simulation-center-august-10-2026" rel="noopener">PCC dedicates new Fremont Campus simulation center | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/fremont-campus/pcc-dedicates-new-fremont-campus-simulation-center-august-10-2026</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/fremont-campus-pcc-dedicates-new-fremont-campus-simulation-center-august-10-2026.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/Fremont/Senior-Mini-College" rel="noopener">Senior Mini College | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/Fremont/Senior-Mini-College</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/Fremont-Senior-Mini-College.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/gateway-to-college" rel="noopener">Gateway to College (H.S. Diploma) | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/gateway-to-college</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/gateway-to-college.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/ged" rel="noopener">General Education Diploma (GED) | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/ged</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/ged.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/home/pcc-land-acknowledgement" rel="noopener">PCC Land Acknowledgement | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/home/pcc-land-acknowledgement</span></td>
+      <td class="n">0</td>
+      <td class="n">5</td>
+      <td class="links"><a class="pgrep" href="pages/home-pcc-land-acknowledgement.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/HR" rel="noopener">Human Resources | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/HR</span></td>
+      <td class="n">0</td>
+      <td class="n">8</td>
+      <td class="links"><a class="pgrep" href="pages/HR.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/KidsCollege" rel="noopener">Kids&#39; College | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/KidsCollege</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/KidsCollege.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/Legal/Legal-Disclaimers" rel="noopener">Disclaimers and Legal Notices | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/Legal/Legal-Disclaimers</span></td>
+      <td class="n">0</td>
+      <td class="n">3</td>
+      <td class="links"><a class="pgrep" href="pages/Legal-Legal-Disclaimers.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/loans" rel="noopener">Student Loans | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/loans</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/loans.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/locations" rel="noopener">Campus &amp; Site Locations | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/locations</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/locations.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://pueblocc.edu/news" rel="noopener">Newsroom | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/news</span></td>
+      <td class="n bad">1</td>
+      <td class="n">10</td>
+      <td class="links"><a class="pgrep" href="pages/news.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/nss" rel="noopener">New Students | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/nss</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/nss.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/Panther-Student-Pantry" rel="noopener">Food Pantries | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/Panther-Student-Pantry</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/Panther-Student-Pantry.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/pathways" rel="noopener">Degrees &amp; Certificates | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/pathways</span></td>
+      <td class="n">0</td>
+      <td class="n">16</td>
+      <td class="links"><a class="pgrep" href="pages/pathways.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/payment-options" rel="noopener">Payment Options | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/payment-options</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/payment-options.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/President" rel="noopener">President&#39;s Office | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/President</span></td>
+      <td class="n">0</td>
+      <td class="n">5</td>
+      <td class="links"><a class="pgrep" href="pages/President.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/prior-learning-assessment" rel="noopener">Credit for Prior Learning | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/prior-learning-assessment</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/prior-learning-assessment.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/privacy-policy" rel="noopener">Privacy Policy | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/privacy-policy</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/privacy-policy.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/Professional-Development" rel="noopener">Professional Development | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/Professional-Development</span></td>
+      <td class="n">0</td>
+      <td class="n">5</td>
+      <td class="links"><a class="pgrep" href="pages/Professional-Development.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/programs" rel="noopener">Degrees &amp; Certificates | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/programs</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/programs.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/programs/apprenticeship" rel="noopener">Apprenticeship Programs | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/programs/apprenticeship</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/programs-apprenticeship.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/public-safety" rel="noopener">Campus Safety | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/public-safety</span></td>
+      <td class="n">0</td>
+      <td class="n">5</td>
+      <td class="links"><a class="pgrep" href="pages/public-safety.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/pueblo" rel="noopener">Pueblo Campus | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/pueblo</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/pueblo.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/pueblo-campus/pcc-expand-trade-programs-new-pueblo-west-location-august-03-2026" rel="noopener">PCC to expand trade programs with new Pueblo West location | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/pueblo-campus/pcc-expand-trade-programs-new-pueblo-west-location-august-03-2026</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/pueblo-campus-pcc-expand-trade-programs-new-pueblo-west-location-august-03-2026.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/pueblocorporatecollege" rel="noopener">Pueblo Corporate College | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/pueblocorporatecollege</span></td>
+      <td class="n">0</td>
+      <td class="n">16</td>
+      <td class="links"><a class="pgrep" href="pages/pueblocorporatecollege.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/request-info" rel="noopener">Contact us | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/request-info</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/request-info.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/scholarships" rel="noopener">Scholarships | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/scholarships</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/scholarships.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/southwest" rel="noopener">PCC Southwest | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/southwest</span></td>
+      <td class="n">0</td>
+      <td class="n">9</td>
+      <td class="links"><a class="pgrep" href="pages/southwest.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/spotlights" rel="noopener">Panther Spotlights | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/spotlights</span></td>
+      <td class="n">0</td>
+      <td class="n">24</td>
+      <td class="links"><a class="pgrep" href="pages/spotlights.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/STEM-Center" rel="noopener">STEM Center | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/STEM-Center</span></td>
+      <td class="n">0</td>
+      <td class="n">5</td>
+      <td class="links"><a class="pgrep" href="pages/STEM-Center.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/Student_Handbook" rel="noopener">Student Handbook | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/Student_Handbook</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/Student-Handbook.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/student-life" rel="noopener">Student Life | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/student-life</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/student-life.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/support-success" rel="noopener">Student Support Services | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/support-success</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/support-success.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/Testing-Center" rel="noopener">Testing Center | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/Testing-Center</span></td>
+      <td class="n">0</td>
+      <td class="n">5</td>
+      <td class="links"><a class="pgrep" href="pages/Testing-Center.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/Title-IX" rel="noopener">Nondiscrimination / Title IX | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/Title-IX</span></td>
+      <td class="n">0</td>
+      <td class="n">5</td>
+      <td class="links"><a class="pgrep" href="pages/Title-IX.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/tours" rel="noopener">Enrollment Events &amp; Campus Tours | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/tours</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/tours.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://pueblocc.edu/transfer" rel="noopener">Guaranteed Transfer Degrees | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/transfer</span></td>
+      <td class="n bad">1</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/transfer.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/tuition" rel="noopener">Tuition &amp; Fees | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/tuition</span></td>
+      <td class="n">0</td>
+      <td class="n">5</td>
+      <td class="links"><a class="pgrep" href="pages/tuition.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/veterans" rel="noopener">Veterans&#39; Services | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/veterans</span></td>
+      <td class="n">0</td>
+      <td class="n">10</td>
+      <td class="links"><a class="pgrep" href="pages/veterans.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/wellness" rel="noopener">Health &amp; Wellness | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/wellness</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/wellness.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://pueblocc.edu/Work-Study" rel="noopener">Work-study Opportunities | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/Work-Study</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/Work-Study.html">Audit report</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Data</h2>
+<div class="datamenu">
+  <a href="latest.json">latest.json</a>
+  <a href="history.json">history.json</a>
+  <a href="https://github.com/ThirstyHead/pcc-audit/blob/main/reports/axe-2026-08-25T06-18-22-362Z.json">Raw report (latest)</a>
+  <a href="https://github.com/ThirstyHead/pcc-audit/tree/main/reports">All raw reports</a>
+</div>
+
+<footer>
+  <p><strong>About this audit.</strong> Results are produced automatically by
+  <a href="https://github.com/dequelabs/axe-core">axe-core</a> (Deque) against the WCAG 2.1 A/AA rule set,
+  on a weekly schedule, by the open-source tooling in
+  <a href="https://github.com/ThirstyHead/audit-pueblocc.edu">ThirstyHead/audit-pueblocc.edu</a>.
+  Automated tooling detects only a subset of accessibility failures and does not replace
+  manual or assistive-technology testing. “Needs manual review” items are results axe
+  could not determine automatically.</p>
+  <p>Generated 2026-08-25T06:18:22.895Z · <a href="https://thirstyhead.com/pcc-audit/">thirstyhead.com/pcc-audit/</a></p>
+</footer>
+</body>
+</html>
