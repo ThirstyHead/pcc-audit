@@ -1,8 +1,8 @@
 {
-  "siteGenerated": "2026-08-26T20:43:32.632Z",
+  "siteGenerated": "2026-08-31T12:45:02.251Z",
   "sourceRepo": "https://github.com/ThirstyHead/audit-pueblocc.edu",
   "report": {
-    "generated": "2026-08-26T20:43:31.936Z",
+    "generated": "2026-08-31T12:45:01.076Z",
     "tags": [
       "wcag2a",
       "wcag2aa",
@@ -41,7 +41,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 73,
+            "nodes": 71,
             "firstTargets": [
               ".c-hero__title",
               ".c-hero__sub-title",
@@ -472,21 +472,6 @@
             "firstTargets": [
               ".media-oembed-content",
               ".media-oembed-content iframe"
-            ]
-          },
-          {
-            "id": "link-in-text-block",
-            "impact": "serious",
-            "help": "Links must be distinguishable without relying on color",
-            "wcag": [
-              "wcag2a",
-              "wcag141"
-            ],
-            "nodes": 3,
-            "firstTargets": [
-              "p:nth-child(2) > a[href$=\"pcc-grad-grant\"][target=\"_blank\"]",
-              "p:nth-child(3) > a[href$=\"pcc-grad-grant\"][target=\"_blank\"]",
-              "p:nth-child(3) > a[href$=\"apply\"]"
             ]
           }
         ]

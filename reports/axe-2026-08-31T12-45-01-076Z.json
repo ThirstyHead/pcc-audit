@@ -1,0 +1,2812 @@
+{
+  "generated": "2026-08-31T12:45:01.076Z",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa"
+  ],
+  "pages": [
+    {
+      "url": "https://pueblocc.edu/",
+      "title": "Home | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/",
+      "slug": "home",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 71,
+          "firstTargets": [
+            ".c-hero__title",
+            ".c-hero__sub-title",
+            ".c-section-header__title--rule"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/accessibility-statement",
+      "title": "Accessibility Statement | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/accessibility-statement",
+      "slug": "accessibility-statement",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/accreditation",
+      "title": "Accreditation and Institutional Recognition | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/accreditation",
+      "slug": "accreditation",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/Admissions",
+      "title": "Office of the Registrar | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/Admissions",
+      "slug": "Admissions",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "#block-secondary-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/advising",
+      "title": "Advising Support Services | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/advising",
+      "slug": "advising",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/amenities",
+      "title": "Campus Amenities | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/amenities",
+      "slug": "amenities",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/apply",
+      "title": "Apply Now | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/apply",
+      "slug": "apply",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/calendar",
+      "title": "Academic Calendar | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/calendar",
+      "slug": "calendar",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/career-services",
+      "title": "Career Services | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/career-services",
+      "slug": "career-services",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "#block-secondary-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/ChildrenFirst",
+      "title": "Children First | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/ChildrenFirst",
+      "slug": "ChildrenFirst",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "#block-secondary-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/ChoosePCC",
+      "title": "Choose PCC. It's worth it. | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/ChoosePCC",
+      "slug": "ChoosePCC",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".media-oembed-content iframe .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".media-oembed-content iframe #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".media-oembed-content iframe .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 3,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 12,
+          "firstTargets": [
+            "h1 > span",
+            ".c-interior-media__text",
+            ".c-section-header__sup"
+          ]
+        },
+        {
+          "id": "frame-title-unique",
+          "impact": "serious",
+          "help": "Frames must have a unique title attribute",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".media-oembed-content",
+            ".media-oembed-content iframe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/cof",
+      "title": "College Opportunity Fund | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/cof",
+      "slug": "cof",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/Concerns",
+      "title": "Reporting a Concern or Incident | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/Concerns",
+      "slug": "Concerns",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/cora",
+      "title": "Colorado Open Records Act (CORA) | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/cora",
+      "slug": "cora",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/Corporate-Training",
+      "title": "Pueblo Corporate College - Corporate Training | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/Corporate-Training",
+      "slug": "Corporate-Training",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "#block-secondary-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/EarlyCollege",
+      "title": "Concurrent Enrollment | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/EarlyCollege",
+      "slug": "EarlyCollege",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".media-oembed-content iframe .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".media-oembed-content iframe #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".media-oembed-content iframe .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 3,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        },
+        {
+          "id": "frame-title-unique",
+          "impact": "serious",
+          "help": "Frames must have a unique title attribute",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".media-oembed-content",
+            ".media-oembed-content iframe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/elearning",
+      "title": "Online Learning | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/elearning",
+      "slug": "elearning",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "#block-secondary-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/esports",
+      "title": "Panthers Esports | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/esports",
+      "slug": "esports",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "#block-secondary-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 138,
+          "firstTargets": [
+            "h1 > span",
+            ".l__header > .paragraph--type--rich-text.paragraph--view-mode--default.paragraph:nth-child(1) > .field--name-field-rich-text.field--type-text-long.text-content > h2",
+            ".c-button-links__item:nth-child(1) > a"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/Event-Services",
+      "title": "Conference & Event Services | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/Event-Services",
+      "slug": "Event-Services",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "#block-secondary-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/events",
+      "title": "Events & Happenings | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/events",
+      "slug": "events",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/events/2026-08-26/tlc-laptop-kiosk-open-house",
+      "title": "TLC Laptop Kiosk Open House | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/events/2026-08-26/tlc-laptop-kiosk-open-house",
+      "slug": "events-2026-08-26-tlc-laptop-kiosk-open-house",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/events/2026-08-29/pdga-fremont-campus-disc-golf-tournament",
+      "title": "PDGA Fremont Campus Disc Golf Tournament | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/events/2026-08-29/pdga-fremont-campus-disc-golf-tournament",
+      "slug": "events-2026-08-29-pdga-fremont-campus-disc-golf-tournament",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/events/2026-09-01/care-and-share-mobile-food-pantry",
+      "title": "Care and Share Mobile Food Pantry | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/events/2026-09-01/care-and-share-mobile-food-pantry",
+      "slug": "events-2026-09-01-care-and-share-mobile-food-pantry",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/events/2026-09-01/dmv2go",
+      "title": "DMV2GO | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/events/2026-09-01/dmv2go",
+      "slug": "events-2026-09-01-dmv2go",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            ".c-event-date__month",
+            ".c-event-date__day",
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/Financial-Aid",
+      "title": "Financial Aid | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/Financial-Aid",
+      "slug": "Financial-Aid",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "#block-secondary-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/Financial-Aid/Grants",
+      "title": "Student Grants | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/Financial-Aid/Grants",
+      "slug": "Financial-Aid-Grants",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/Fremont",
+      "title": "Fremont Campus | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/Fremont",
+      "slug": "Fremont",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".media-oembed-content iframe .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".media-oembed-content iframe #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".media-oembed-content iframe .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 3,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 6,
+          "firstTargets": [
+            "h1 > span",
+            ".field--name-field-person-title",
+            ".field--name-field-title"
+          ]
+        },
+        {
+          "id": "frame-title-unique",
+          "impact": "serious",
+          "help": "Frames must have a unique title attribute",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".media-oembed-content",
+            ".media-oembed-content iframe"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/fremont-campus/pcc-dedicates-new-fremont-campus-simulation-center-august-10-2026",
+      "title": "PCC dedicates new Fremont Campus simulation center | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/fremont-campus/pcc-dedicates-new-fremont-campus-simulation-center-august-10-2026",
+      "slug": "fremont-campus-pcc-dedicates-new-fremont-campus-simulation-center-august-10-2026",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/Fremont/Senior-Mini-College",
+      "title": "Senior Mini College | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/Fremont/Senior-Mini-College",
+      "slug": "Fremont-Senior-Mini-College",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/gateway-to-college",
+      "title": "Gateway to College (H.S. Diploma) | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/gateway-to-college",
+      "slug": "gateway-to-college",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/ged",
+      "title": "General Education Diploma (GED) | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/ged",
+      "slug": "ged",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/home/pcc-land-acknowledgement",
+      "title": "PCC Land Acknowledgement | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/home/pcc-land-acknowledgement",
+      "slug": "home-pcc-land-acknowledgement",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "#block-secondary-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/HR",
+      "title": "Human Resources | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/HR",
+      "slug": "HR",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "#block-secondary-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "h1 > span",
+            ".js-inner-click__link > a > span",
+            ".c-card-featured__meta"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/KidsCollege",
+      "title": "Kids' College | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/KidsCollege",
+      "slug": "KidsCollege",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/Legal/Legal-Disclaimers",
+      "title": "Disclaimers and Legal Notices | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/Legal/Legal-Disclaimers",
+      "slug": "Legal-Legal-Disclaimers",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/loans",
+      "title": "Student Loans | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/loans",
+      "slug": "loans",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/locations",
+      "title": "Campus & Site Locations | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/locations",
+      "slug": "locations",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/news",
+      "title": "Newsroom | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/news",
+      "slug": "news",
+      "violations": [
+        {
+          "id": "list",
+          "impact": "serious",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/list?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag131"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".pager__items"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 6,
+          "firstTargets": [
+            "h1 > span",
+            ".js-inner-click__link > a > span",
+            ".c-card-featured__meta"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/nss",
+      "title": "New Students | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/nss",
+      "slug": "nss",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/Panther-Student-Pantry",
+      "title": "Food Pantries | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/Panther-Student-Pantry",
+      "slug": "Panther-Student-Pantry",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/pathways",
+      "title": "Degrees & Certificates | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/pathways",
+      "slug": "pathways",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 13,
+          "firstTargets": [
+            "h1 > span",
+            "span[data-gridindex=\"1\"] > .c-image-card.js-image-card[role=\"button\"] > .c-image-card__title.js-image-card__title",
+            "span[data-gridindex=\"2\"] > .c-image-card.js-image-card[role=\"button\"] > .c-image-card__title.js-image-card__title"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/payment-options",
+      "title": "Payment Options | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/payment-options",
+      "slug": "payment-options",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/President",
+      "title": "President's Office | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/President",
+      "slug": "President",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "#block-secondary-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/prior-learning-assessment",
+      "title": "Credit for Prior Learning | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/prior-learning-assessment",
+      "slug": "prior-learning-assessment",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/privacy-policy",
+      "title": "Privacy Policy | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/privacy-policy",
+      "slug": "privacy-policy",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/Professional-Development",
+      "title": "Professional Development | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/Professional-Development",
+      "slug": "Professional-Development",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "#block-secondary-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/programs",
+      "title": "Degrees & Certificates | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/programs",
+      "slug": "programs",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/programs/apprenticeship",
+      "title": "Apprenticeship Programs | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/programs/apprenticeship",
+      "slug": "programs-apprenticeship",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/public-safety",
+      "title": "Campus Safety | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/public-safety",
+      "slug": "public-safety",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "#block-secondary-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/pueblo",
+      "title": "Pueblo Campus | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/pueblo",
+      "slug": "pueblo",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/pueblo-campus/pcc-expand-trade-programs-new-pueblo-west-location-august-03-2026",
+      "title": "PCC to expand trade programs with new Pueblo West location | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/pueblo-campus/pcc-expand-trade-programs-new-pueblo-west-location-august-03-2026",
+      "slug": "pueblo-campus-pcc-expand-trade-programs-new-pueblo-west-location-august-03-2026",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/pueblocorporatecollege",
+      "title": "Pueblo Corporate College | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/pueblocorporatecollege",
+      "slug": "pueblocorporatecollege",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 13,
+          "firstTargets": [
+            ".c-hero__title",
+            ".c-hero__sub-title",
+            ".c-button-links__item:nth-child(1) > a[href$=\"Corporate-Training\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/request-info",
+      "title": "Contact us | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/request-info",
+      "slug": "request-info",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/scholarships",
+      "title": "Scholarships | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/scholarships",
+      "slug": "scholarships",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/southwest",
+      "title": "PCC Southwest | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/southwest",
+      "slug": "southwest",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 6,
+          "firstTargets": [
+            "h1 > span",
+            ".field--name-field-person-title",
+            ".field--name-field-title"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/spotlights",
+      "title": "Panther Spotlights | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/spotlights",
+      "slug": "spotlights",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 21,
+          "firstTargets": [
+            "h1 > span",
+            ".c-card-feature-story.js-inner-click[data-once=\"innerClickBehavior\"]:nth-child(2) > .c-card-feature-story__content > h2 > .c-card-feature-story__title > span",
+            ".c-card-feature-story.js-inner-click[data-once=\"innerClickBehavior\"]:nth-child(2) > .c-card-feature-story__content > .c-card-feature-story__link.js-inner-click__link > .button--red.button--link.button"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/STEM-Center",
+      "title": "STEM Center | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/STEM-Center",
+      "slug": "STEM-Center",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "#block-secondary-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/Student_Handbook",
+      "title": "Student Handbook | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/Student_Handbook",
+      "slug": "Student-Handbook",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/student-life",
+      "title": "Student Life | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/student-life",
+      "slug": "student-life",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/support-success",
+      "title": "Student Support Services | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/support-success",
+      "slug": "support-success",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/Testing-Center",
+      "title": "Testing Center | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/Testing-Center",
+      "slug": "Testing-Center",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "#block-secondary-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/Title-IX",
+      "title": "Nondiscrimination / Title IX | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/Title-IX",
+      "slug": "Title-IX",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "#block-secondary-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/tours",
+      "title": "Enrollment Events & Campus Tours | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/tours",
+      "slug": "tours",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/transfer",
+      "title": "Guaranteed Transfer Degrees | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/transfer",
+      "slug": "transfer",
+      "violations": [
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "help": "Links must be distinguishable without relying on color",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-in-text-block?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag141"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "a[href$=\"transfer-checklist\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/tuition",
+      "title": "Tuition & Fees | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/tuition",
+      "slug": "tuition",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "#block-secondary-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/veterans",
+      "title": "Veterans' Services | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/veterans",
+      "slug": "veterans",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "h1 > span",
+            ".c-interior-media__text",
+            ".field--name-field-person-title"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/wellness",
+      "title": "Health & Wellness | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/wellness",
+      "slug": "wellness",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pueblocc.edu/Work-Study",
+      "title": "Work-study Opportunities | Pueblo Community College",
+      "finalUrl": "https://pueblocc.edu/Work-Study",
+      "slug": "Work-Study",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#mega-menu-toggle-nav",
+            "#mega-menu-toggle-search",
+            "a[aria-hidden=\"\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1 > span"
+          ]
+        }
+      ]
+    }
+  ],
+  "pagesHtml": {
+    "https://pueblocc.edu/": "pages/home.html",
+    "https://pueblocc.edu/accessibility-statement": "pages/accessibility-statement.html",
+    "https://pueblocc.edu/accreditation": "pages/accreditation.html",
+    "https://pueblocc.edu/Admissions": "pages/Admissions.html",
+    "https://pueblocc.edu/advising": "pages/advising.html",
+    "https://pueblocc.edu/amenities": "pages/amenities.html",
+    "https://pueblocc.edu/apply": "pages/apply.html",
+    "https://pueblocc.edu/calendar": "pages/calendar.html",
+    "https://pueblocc.edu/career-services": "pages/career-services.html",
+    "https://pueblocc.edu/ChildrenFirst": "pages/ChildrenFirst.html",
+    "https://pueblocc.edu/ChoosePCC": "pages/ChoosePCC.html",
+    "https://pueblocc.edu/cof": "pages/cof.html",
+    "https://pueblocc.edu/Concerns": "pages/Concerns.html",
+    "https://pueblocc.edu/cora": "pages/cora.html",
+    "https://pueblocc.edu/Corporate-Training": "pages/Corporate-Training.html",
+    "https://pueblocc.edu/EarlyCollege": "pages/EarlyCollege.html",
+    "https://pueblocc.edu/elearning": "pages/elearning.html",
+    "https://pueblocc.edu/esports": "pages/esports.html",
+    "https://pueblocc.edu/Event-Services": "pages/Event-Services.html",
+    "https://pueblocc.edu/events": "pages/events.html",
+    "https://pueblocc.edu/events/2026-08-26/tlc-laptop-kiosk-open-house": "pages/events-2026-08-26-tlc-laptop-kiosk-open-house.html",
+    "https://pueblocc.edu/events/2026-08-29/pdga-fremont-campus-disc-golf-tournament": "pages/events-2026-08-29-pdga-fremont-campus-disc-golf-tournament.html",
+    "https://pueblocc.edu/events/2026-09-01/care-and-share-mobile-food-pantry": "pages/events-2026-09-01-care-and-share-mobile-food-pantry.html",
+    "https://pueblocc.edu/events/2026-09-01/dmv2go": "pages/events-2026-09-01-dmv2go.html",
+    "https://pueblocc.edu/Financial-Aid": "pages/Financial-Aid.html",
+    "https://pueblocc.edu/Financial-Aid/Grants": "pages/Financial-Aid-Grants.html",
+    "https://pueblocc.edu/Fremont": "pages/Fremont.html",
+    "https://pueblocc.edu/fremont-campus/pcc-dedicates-new-fremont-campus-simulation-center-august-10-2026": "pages/fremont-campus-pcc-dedicates-new-fremont-campus-simulation-center-august-10-2026.html",
+    "https://pueblocc.edu/Fremont/Senior-Mini-College": "pages/Fremont-Senior-Mini-College.html",
+    "https://pueblocc.edu/gateway-to-college": "pages/gateway-to-college.html",
+    "https://pueblocc.edu/ged": "pages/ged.html",
+    "https://pueblocc.edu/home/pcc-land-acknowledgement": "pages/home-pcc-land-acknowledgement.html",
+    "https://pueblocc.edu/HR": "pages/HR.html",
+    "https://pueblocc.edu/KidsCollege": "pages/KidsCollege.html",
+    "https://pueblocc.edu/Legal/Legal-Disclaimers": "pages/Legal-Legal-Disclaimers.html",
+    "https://pueblocc.edu/loans": "pages/loans.html",
+    "https://pueblocc.edu/locations": "pages/locations.html",
+    "https://pueblocc.edu/news": "pages/news.html",
+    "https://pueblocc.edu/nss": "pages/nss.html",
+    "https://pueblocc.edu/Panther-Student-Pantry": "pages/Panther-Student-Pantry.html",
+    "https://pueblocc.edu/pathways": "pages/pathways.html",
+    "https://pueblocc.edu/payment-options": "pages/payment-options.html",
+    "https://pueblocc.edu/President": "pages/President.html",
+    "https://pueblocc.edu/prior-learning-assessment": "pages/prior-learning-assessment.html",
+    "https://pueblocc.edu/privacy-policy": "pages/privacy-policy.html",
+    "https://pueblocc.edu/Professional-Development": "pages/Professional-Development.html",
+    "https://pueblocc.edu/programs": "pages/programs.html",
+    "https://pueblocc.edu/programs/apprenticeship": "pages/programs-apprenticeship.html",
+    "https://pueblocc.edu/public-safety": "pages/public-safety.html",
+    "https://pueblocc.edu/pueblo": "pages/pueblo.html",
+    "https://pueblocc.edu/pueblo-campus/pcc-expand-trade-programs-new-pueblo-west-location-august-03-2026": "pages/pueblo-campus-pcc-expand-trade-programs-new-pueblo-west-location-august-03-2026.html",
+    "https://pueblocc.edu/pueblocorporatecollege": "pages/pueblocorporatecollege.html",
+    "https://pueblocc.edu/request-info": "pages/request-info.html",
+    "https://pueblocc.edu/scholarships": "pages/scholarships.html",
+    "https://pueblocc.edu/southwest": "pages/southwest.html",
+    "https://pueblocc.edu/spotlights": "pages/spotlights.html",
+    "https://pueblocc.edu/STEM-Center": "pages/STEM-Center.html",
+    "https://pueblocc.edu/Student_Handbook": "pages/Student-Handbook.html",
+    "https://pueblocc.edu/student-life": "pages/student-life.html",
+    "https://pueblocc.edu/support-success": "pages/support-success.html",
+    "https://pueblocc.edu/Testing-Center": "pages/Testing-Center.html",
+    "https://pueblocc.edu/Title-IX": "pages/Title-IX.html",
+    "https://pueblocc.edu/tours": "pages/tours.html",
+    "https://pueblocc.edu/transfer": "pages/transfer.html",
+    "https://pueblocc.edu/tuition": "pages/tuition.html",
+    "https://pueblocc.edu/veterans": "pages/veterans.html",
+    "https://pueblocc.edu/wellness": "pages/wellness.html",
+    "https://pueblocc.edu/Work-Study": "pages/Work-Study.html"
+  }
+}
