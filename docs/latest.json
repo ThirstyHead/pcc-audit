@@ -1,8 +1,8 @@
 {
-  "siteGenerated": "2026-08-31T12:45:02.251Z",
+  "siteGenerated": "2026-09-07T11:39:11.243Z",
   "sourceRepo": "https://github.com/ThirstyHead/audit-pueblocc.edu",
   "report": {
-    "generated": "2026-08-31T12:45:01.076Z",
+    "generated": "2026-09-07T11:39:10.535Z",
     "tags": [
       "wcag2a",
       "wcag2aa",
@@ -941,8 +941,8 @@
       },
       {
         "url": "https://pueblocc.edu/events/2026-09-01/dmv2go",
-        "title": "DMV2GO | Pueblo Community College",
-        "finalUrl": "https://pueblocc.edu/events/2026-09-01/dmv2go",
+        "title": "DMV2GO - Cancelled | Pueblo Community College",
+        "finalUrl": "https://pueblocc.edu/events/2026-09-01/dmv2go-cancelled",
         "slug": "events-2026-09-01-dmv2go",
         "violations": [],
         "violationTotal": 0,
@@ -1195,8 +1195,37 @@
         "title": "Senior Mini College | Pueblo Community College",
         "finalUrl": "https://pueblocc.edu/Fremont/Senior-Mini-College",
         "slug": "Fremont-Senior-Mini-College",
-        "violations": [],
-        "violationTotal": 0,
+        "violations": [
+          {
+            "id": "aria-allowed-attr",
+            "impact": "critical",
+            "help": "Elements must only use supported ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+            "wcag": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 1,
+            "firstTargets": [
+              ".media-oembed-content iframe .ytmVideoInfoVideoTitle"
+            ]
+          },
+          {
+            "id": "aria-prohibited-attr",
+            "impact": "serious",
+            "help": "Elements must only use permitted ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+            "wcag": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 1,
+            "firstTargets": [
+              ".media-oembed-content iframe #movie_player"
+            ]
+          }
+        ],
+        "violationTotal": 2,
         "incomplete": [
           {
             "id": "aria-valid-attr-value",
@@ -1224,6 +1253,20 @@
             "nodes": 1,
             "firstTargets": [
               "h1 > span"
+            ]
+          },
+          {
+            "id": "frame-title-unique",
+            "impact": "serious",
+            "help": "Frames must have a unique title attribute",
+            "wcag": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 2,
+            "firstTargets": [
+              ".media-oembed-content",
+              ".media-oembed-content iframe"
             ]
           }
         ]

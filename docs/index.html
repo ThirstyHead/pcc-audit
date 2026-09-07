@@ -110,26 +110,26 @@
 </header>
 <div class="wrap">
 <div class="meta">
-  <span>Last audited: <strong>August 31, 2026</strong> (UTC)</span>
-  <span>Published runs: 4</span>
+  <span>Last audited: <strong>September 7, 2026</strong> (UTC)</span>
+  <span>Published runs: 5</span>
   <span>Tooling: <a href="https://github.com/ThirstyHead/audit-pueblocc.edu">axe-core + Playwright</a>, run weekly via GitHub Actions</span>
-  <span><span class="delta flat">no change vs last run</span></span>
+  <span><span class="delta up">▲ 2 vs last run</span></span>
 </div>
 
 <h2>Latest results</h2>
 <div class="cards">
-  <div class="card"><span class="num">11</span><span class="lbl">Node-level violations</span></div>
+  <div class="card"><span class="num">13</span><span class="lbl">Node-level violations</span></div>
   <div class="card"><span class="num">68</span><span class="lbl">Pages audited</span></div>
-  <div class="card"><span class="num">579</span><span class="lbl">Need manual review</span></div>
+  <div class="card"><span class="num">581</span><span class="lbl">Need manual review</span></div>
   <div class="card"><span class="num ">0</span><span class="lbl">Not audited (HTTP error)</span></div>
 </div>
 <div class="severities">
       <div class="sevcard" style="border-top:4px solid #03202F">
-        <span class="num">6</span>
+        <span class="num">7</span>
         <span class="lbl">Critical</span>
       </div>
       <div class="sevcard" style="border-top:4px solid #D74026">
-        <span class="num">5</span>
+        <span class="num">6</span>
         <span class="lbl">Serious</span>
       </div>
       <div class="sevcard" style="border-top:4px solid #7A5200">
@@ -144,22 +144,25 @@
 <h2>Trend</h2>
 <div>
     <svg viewBox="0 0 680 150" class="spark" role="img" aria-label="Trend of total node-level violations across audit runs">
-      <polyline points="40.0,18.0 240.0,18.0 440.0,18.0 640.0,18.0" fill="none" stroke="#004165" stroke-width="2.5" stroke-linejoin="round"/>
-      <circle cx="40.0" cy="18.0" r="4" fill="#004165">
+      <polyline points="40.0,33.7 190.0,33.7 340.0,33.7 490.0,33.7 640.0,18.0" fill="none" stroke="#004165" stroke-width="2.5" stroke-linejoin="round"/>
+      <circle cx="40.0" cy="33.7" r="4" fill="#004165">
          <title>2026-08-25T06:18:22.362Z — 11 node-level violations</title>
        </circle>
-<circle cx="240.0" cy="18.0" r="4" fill="#004165">
+<circle cx="190.0" cy="33.7" r="4" fill="#004165">
          <title>2026-08-25T22:02:14.269Z — 11 node-level violations</title>
        </circle>
-<circle cx="440.0" cy="18.0" r="4" fill="#004165">
+<circle cx="340.0" cy="33.7" r="4" fill="#004165">
          <title>2026-08-26T20:43:31.936Z — 11 node-level violations</title>
        </circle>
-<circle cx="640.0" cy="18.0" r="4" fill="#D74026">
+<circle cx="490.0" cy="33.7" r="4" fill="#004165">
          <title>2026-08-31T12:45:01.076Z — 11 node-level violations</title>
        </circle>
+<circle cx="640.0" cy="18.0" r="4" fill="#D74026">
+         <title>2026-09-07T11:39:10.535Z — 13 node-level violations</title>
+       </circle>
       <text x="40" y="142" class="axis">2026-08-25</text>
-      <text x="640" y="142" class="axis" text-anchor="end">2026-08-31</text>
-      <text x="648" y="22" class="axis">11</text>
+      <text x="640" y="142" class="axis" text-anchor="end">2026-09-07</text>
+      <text x="648" y="22" class="axis">13</text>
     </svg></div>
 
 <h2>Pages</h2>
@@ -307,7 +310,7 @@
       <td class="links"><a class="pgrep" href="pages/events-2026-09-01-care-and-share-mobile-food-pantry.html">Audit report</a></td>
     </tr>
     <tr>
-      <td class="pg"><a href="https://pueblocc.edu/events/2026-09-01/dmv2go" rel="noopener">DMV2GO | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/events/2026-09-01/dmv2go</span></td>
+      <td class="pg"><a href="https://pueblocc.edu/events/2026-09-01/dmv2go" rel="noopener">DMV2GO - Cancelled | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/events/2026-09-01/dmv2go</span></td>
       <td class="n">0</td>
       <td class="n">7</td>
       <td class="links"><a class="pgrep" href="pages/events-2026-09-01-dmv2go.html">Audit report</a></td>
@@ -336,10 +339,10 @@
       <td class="n">4</td>
       <td class="links"><a class="pgrep" href="pages/fremont-campus-pcc-dedicates-new-fremont-campus-simulation-center-august-10-2026.html">Audit report</a></td>
     </tr>
-    <tr>
+    <tr class="bad">
       <td class="pg"><a href="https://pueblocc.edu/Fremont/Senior-Mini-College" rel="noopener">Senior Mini College | Pueblo Community College</a> <span class="pwurl">https://pueblocc.edu/Fremont/Senior-Mini-College</span></td>
-      <td class="n">0</td>
-      <td class="n">4</td>
+      <td class="n bad">2</td>
+      <td class="n">6</td>
       <td class="links"><a class="pgrep" href="pages/Fremont-Senior-Mini-College.html">Audit report</a></td>
     </tr>
     <tr>
@@ -584,7 +587,7 @@
 <div class="datamenu">
   <a href="latest.json">latest.json</a>
   <a href="history.json">history.json</a>
-  <a href="https://github.com/ThirstyHead/pcc-audit/blob/main/reports/axe-2026-08-31T12-45-01-076Z.json">Raw report (latest)</a>
+  <a href="https://github.com/ThirstyHead/pcc-audit/blob/main/reports/axe-2026-09-07T11-39-10-535Z.json">Raw report (latest)</a>
   <a href="https://github.com/ThirstyHead/pcc-audit/tree/main/reports">All raw reports</a>
 </div>
 </div>
@@ -596,7 +599,7 @@
   Automated tooling detects only a subset of accessibility failures and does not replace
   manual or assistive-technology testing. “Needs manual review” items are results axe
   could not determine automatically.</p>
-  <p>Generated 2026-08-31T12:45:02.251Z · <a href="https://thirstyhead.com/pcc-audit/">thirstyhead.com/pcc-audit/</a></p>
+  <p>Generated 2026-09-07T11:39:11.243Z · <a href="https://thirstyhead.com/pcc-audit/">thirstyhead.com/pcc-audit/</a></p>
 </footer>
 </body>
 </html>
