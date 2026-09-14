@@ -1,8 +1,8 @@
 {
-  "siteGenerated": "2026-09-07T11:39:11.243Z",
+  "siteGenerated": "2026-09-14T11:50:32.000Z",
   "sourceRepo": "https://github.com/ThirstyHead/audit-pueblocc.edu",
   "report": {
-    "generated": "2026-09-07T11:39:10.535Z",
+    "generated": "2026-09-14T11:50:31.372Z",
     "tags": [
       "wcag2a",
       "wcag2aa",
@@ -41,7 +41,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 71,
+            "nodes": 73,
             "firstTargets": [
               ".c-hero__title",
               ".c-hero__sub-title",
