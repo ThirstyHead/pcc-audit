@@ -1,8 +1,8 @@
 {
-  "siteGenerated": "2026-09-28T12:57:31.328Z",
+  "siteGenerated": "2026-10-05T13:40:09.391Z",
   "sourceRepo": "https://github.com/ThirstyHead/audit-pueblocc.edu",
   "report": {
-    "generated": "2026-09-28T12:57:30.628Z",
+    "generated": "2026-10-05T13:40:08.398Z",
     "tags": [
       "wcag2a",
       "wcag2aa",
@@ -41,7 +41,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 73,
+            "nodes": 72,
             "firstTargets": [
               ".c-hero__title",
               ".c-hero__sub-title",
@@ -622,6 +622,20 @@
         "slug": "EarlyCollege",
         "violations": [
           {
+            "id": "aria-allowed-attr",
+            "impact": "critical",
+            "help": "Elements must only use supported ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+            "wcag": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 1,
+            "firstTargets": [
+              ".media-oembed-content iframe .ytmVideoInfoVideoTitle"
+            ]
+          },
+          {
             "id": "aria-prohibited-attr",
             "impact": "serious",
             "help": "Elements must only use permitted ARIA attributes",
@@ -634,9 +648,23 @@
             "firstTargets": [
               ".media-oembed-content iframe #movie_player"
             ]
+          },
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+            "wcag": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 1,
+            "firstTargets": [
+              ".media-oembed-content iframe .ytmVideoInfoChannelAvatar"
+            ]
           }
         ],
-        "violationTotal": 1,
+        "violationTotal": 3,
         "incomplete": [
           {
             "id": "aria-valid-attr-value",
